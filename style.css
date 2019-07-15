@@ -1,0 +1,296 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto';
+    margin:0;
+    width:100%;
+}
+
+/* Nav bar */
+nav{
+    background-color : #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top :15px;
+    height:30px;
+    position: relative;
+    
+}
+
+nav a{
+    color:rgba(255,255,255,0.8);
+    text-decoration : none;
+}
+
+/* Nav menu */
+.top-links{
+    display:inline-block;
+    float: right;
+    padding : 0;
+    margin: 0 20px 0 0;
+    position: absolute;
+    top: 15px;
+    right: 16px;
+}
+
+.top-links .menu{
+    display:inline-block;
+    margin: 0 10px;
+}
+
+/* Nav left text */
+.top-left{
+    display:inline-block;
+    float: left;
+    padding : 0;
+    margin: 0 0 0 20px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.heart{
+    margin-left:20px;
+}
+.acronym{
+    margin-left: 10px;
+}
+ 
+/*Header section*/
+
+#intro{
+    background-image:url(./images/city-scape.svg);
+    background-color:rgb(32, 101, 136);
+    position: relative;
+    repeat : no-repeat;
+    size: cover;
+    padding-top:10px;
+    padding-bottom:100px;
+    height:200px;
+
+
+}
+
+/*div for the search bar*/
+.bar{
+    float: left;
+    display: inline-block;
+    padding: 5px 10px;
+    height:50px;
+    width:98%;
+    color:rgba(255,255,255,0.8);
+    position: relative;
+    
+}
+
+.bar a{
+    text-decoration : none;
+    color:rgba(255,255,255,0.8);
+}
+/*npm logo*/
+.left{
+    height: 30px;
+    width:auto;
+    position : absolute;
+}
+/*input search bar*/
+.s-bar{
+    width: 80%;
+    position:absolute;
+    left:100px;
+    top:5px;
+    height:25px;
+    background-color: rgb(31, 82, 111);
+    color:white;
+    border:none;
+    padding-left:10px;
+ }
+
+/*input button*/ 
+
+#search{
+    position:absolute;
+    right:13%;
+    top:5px;
+    height:25px;
+    width:30px;
+    background-color: rgb(31, 82, 111);
+    color:white;
+    border:none;
+
+}
+
+ 
+/*ul login & signup*/
+ .signup{
+    list-style:none;
+    display:inline-block;
+ }
+
+/*ul login*/
+.log {
+    display: inline-block;
+    float: right;
+    padding : 0;
+    margin: 0 20px 0 0;
+    position: absolute;
+    right:5%;
+    top:8px;
+    padding-right:5px;
+    
+}
+
+.log .li{
+    margin-right:5px;
+}
+
+.log .bear{
+    height: 30px;
+    position: absolute;
+    top:-5px;
+    
+    } 
+
+
+/*text-div*/
+.centered{
+    width : 30%;
+    margin: 0 auto;
+    color:rgba(255,255,255,0.8);
+    float:left;
+    position:absolute;
+    left:550px;
+    bottom:80px;
+    width:450px;
+}
+
+.centered button{
+    border-radius: 15px;
+    background-color:rgb(240,146,51);
+    padding:5px 30px;
+    border:none;
+    color:white;
+    font-size:15px;
+    
+}
+
+/*Collab section*/
+
+#presentation{
+    color:rgba(255,255,255,0.8);
+    background-color:rgb(39,53,71);
+    position : relative;
+    repeat : no-repeat;
+    size: cover;
+    padding-bottom:100px;
+    height:250px;
+}
+
+.collab{
+    padding:20px;
+    float : right;
+    position : absolute;
+    margin : auto;
+}
+
+/*image*/
+.bearfriends{
+    width : 30%;
+    margin: 0 auto;
+    float:left;
+    position:absolute;
+    top:50px;
+    left:550px;
+    bottom:80px;
+    width:450px
+}
+
+/*text-div*/
+.arguments{
+    margin: 0 auto;
+    float:right;
+    position:absolute;
+    right:425px;
+    top:80px;
+    width:450px;
+}
+
+.list{
+    padding-left:20px;
+}
+  
+#presentation button {
+    border-radius: 15px;
+    background-color:rgb(203, 56, 55);
+    padding:5px 30px;
+    border:none;
+    color:white;
+    font-size:15px;
+}
+
+/*isecond section*/
+#about{
+    background-image:url(./images/forklift.svg);
+    background-size: cover;
+    color:rgba(255,255,255,0.8);
+    repeat:no-repeat;
+    height:300px;
+    position:relative;
+    
+}
+/*text-part*/
+.wass{
+    margin: 0 auto;
+    float:left;
+    position:absolute;
+    left:525px;
+    top:80px;
+    width:450px;
+}
+
+/*button*/
+#install{
+    border-radius: 15px;
+    background-color:rgb(49, 68, 88);
+    padding:5px 30px;
+    border:none;
+    color:white;
+    font-size:15px;
+}
+
+/*Last Section*/
+
+#last{
+    position:relative;
+    margin:0 auto;
+    padding:20px 50px;
+    text-align:center;
+}
+
+/*text-div & general container*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+/*col - definition*/
+.col{
+    float: left;
+}
+.col-3{
+    width: 30%;
+}
+.col-mid{
+    margin: 0 5%;
+}
+
+/*clearfix*/
+.clearfix{
+    clear: both;
+}
